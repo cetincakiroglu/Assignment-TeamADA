@@ -3,9 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Team ADA Assignment</title>
 </head>
 <body>
-    
+
+<!--Main container is going to be flex parent-->
+
+    <div id="main">
+
+<!--container-1 is first child: Basic Membership option, includes 3 boxes (divs)-->
+
+        <div class="container-1">
+            <div class="header">
+                <h2>Basic</h2>
+                <img src="" alt="Basic subscription image">
+            </div>
+            <div class="pricing">
+                <p class="money">&#36;10</p>
+            </div>
+            <div class="description">
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti quaerat ea, culpa dolorum architecto earum unde deserunt quisquam atque! Quasi vero.</p>
+
+<!--Each button has two classes. First one will be used to give common features(shape, font-size, padding, margin); second one will be used to give different colors-->
+
+                <button class="btn btn1">Start</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </div>
+
+<!--This is the end of Basic subscription Plan, I'll copy and paste the code to create 2 more containers-->
+
+<!--This is start of Pro Membership option-->
+
+        <div class="container-2">
+            <div class="header">
+                <h2>Pro</h2>
+                <img src="" alt="Pro subscription image">
+            </div>
+            <div class="pricing">
+                <p class="money">&#36;20</p>
+            </div>
+            <div class="description">
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti quaerat ea, culpa dolorum architecto earum unde deserunt quisquam atque! Quasi vero.</p>
+                <button class="btn btn2">Start</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </div>
+
+<!--Start of Business Membership option-->
+        <div class="container-3">
+            <div class="header">
+                <h2>Business</h2>
+                <img src="" alt="Business subscription image">
+            </div>
+            <div class="pricing">
+                <p class="money">&#36;30</p>
+            </div>
+            <div class="description">
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti quaerat ea, culpa dolorum architecto earum unde deserunt quisquam atque! Quasi vero.</p>
+                <button class="btn btn3">Start</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </div>
+<!--That's it all html is done.-->
+    </div>
 </body>
 </html>

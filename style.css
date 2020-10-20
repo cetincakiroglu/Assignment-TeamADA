@@ -1,0 +1,36 @@
+/*This is the primitive version of CSS some changes will be made afterwards.*/
+
+body{
+    /*I'll add font-size later when I find the right one*/
+    font-size: 16px;
+}
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+/* I gave them red border temporarily to make it easier to code, you can remove if you want*/
+.container-1, .container-2, .container-3 {
+    border: 2px solid red;
+    border-radius: 5px;
+    margin: 50px;
+    width: 300px;
+    height: 600px;
+    flex-grow: 0;
+    flex-basis: 1;
+    flex-shrink: 0;
+}
+/*I gave them border temporarily, to see easier. Will be removed later*/
+.header, .pricing , .description {
+    border: 2px solid greenyellow;
+}
+.header{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+.money{
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
