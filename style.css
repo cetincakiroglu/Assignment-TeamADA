@@ -1,36 +1,119 @@
 /*This is the primitive version of CSS some changes will be made afterwards.*/
 
 body{
-    /*I'll add font-size later when I find the right one*/
+    font-family: 'Libre Franklin', sans-serif;/*I couldn't find the exact same font so I choose similar one*/
     font-size: 16px;
+    background-color: #d7d7d7;
 }
 #main{
     display: flex;
     flex-wrap: wrap;
+    padding-top: 5%;
     justify-content: center;
     text-align: center;
 }
 /* I gave them red border temporarily to make it easier to code, you can remove if you want*/
 .container-1, .container-2, .container-3 {
-    border: 2px solid red;
-    border-radius: 5px;
+    border-radius: 2px;
     margin: 50px;
     width: 300px;
     height: 600px;
     flex-grow: 0;
     flex-basis: 1;
     flex-shrink: 0;
-}
-/*I gave them border temporarily, to see easier. Will be removed later*/
-.header, .pricing , .description {
-    border: 2px solid greenyellow;
-}
-.header{
-    font-size: 1rem;
-    font-weight: lighter;
-}
-.money{
-    font-size: 3.5rem;
-    font-weight: bolder;
+    
 }
 
+/*Container styling (colors-border radius)*/
+.container-1{
+    background-color: #90C052;
+    color: white;
+    filter: drop-shadow(-30px 10px 10px #C9D3DD);
+}
+.container-2{
+    background-color: #5E9DEC;
+    color: white;
+    filter: drop-shadow(10px 10px 4px #C9D3DD);
+}
+.container-3{
+    background-color:#fb6e52;
+    color: white;
+    filter: drop-shadow(30px 10px 10px #C9D3DD);
+}
+/*Styling children elements*/
+.header{
+    font-size: 1rem;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 300;
+    position: relative;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+    z-index: 100;
+}
+.money{
+    padding: 20px 0px;
+    margin: 0px;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+hr{
+    margin-top: 0;
+}
+.green{
+    width: 90%;
+    border: 2px #749739 solid;
+    color: black transparent;
+    border-radius: 2px;
+    padding: 0px;
+}
+.blue{
+    width: 90%;
+    border: 2px #3C81CE solid;
+    border-radius: 2px;
+    padding: 0px;
+}
+.red{
+    width: 90%;
+    border: 2px #eb553c solid;
+    border-radius: 2px;
+    padding: 0px;
+}
+
+/*I gave negative margin to overlap h2 and images*/
+img{
+    width: 100%;
+    padding: 0px;
+    margin-top: -50px;
+    margin-bottom: -10px;
+}
+.description{
+    padding: 10px 30px 0px;
+    text-align: center;
+    font-size: .70rem;
+    line-height: 1.1rem;
+    font-weight: 200;
+}
+button{
+    margin-top: 10px;
+    padding: 7px 80px;
+    border-radius: 2px;
+    border: none;
+    font-size: 2rem;
+    font-weight: 200;
+    color:white;
+}
+/*coloring the buttons*/
+.btn1{
+    background-color: #618430;
+}
+.btn2{
+    background-color: #3071ab;
+}
+.btn3{
+    background-color: #cd402f ;
+}
+a{
+    text-decoration: none; /*I colored them by using inline styling rather than giving each one a class*/
+}
