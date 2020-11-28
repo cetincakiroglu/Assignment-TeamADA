@@ -20,7 +20,6 @@ body {
     width: 300px;
     height: 600px;
     flex-grow: 0;
-    flex-basis: 1;
     flex-shrink: 0;
     
 }
@@ -72,7 +71,6 @@ hr {
 .green {
     width: 90%;
     border: 2px #749739 solid;
-    color: black transparent;
     border-radius: 2px;
     padding: 0px;
 }
