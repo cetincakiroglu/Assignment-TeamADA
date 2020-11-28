@@ -1,5 +1,6 @@
 body {
-    font-family: 'Libre Franklin', sans-serif;/*I couldn't find the exact same font so I choose similar one*/
+    font-family: 'Libre Franklin', sans-serif;
+    /*I couldn't find the exact same font so I choose similar one*/
     font-size: 16px;
     background-color: #d7d7d7;
 }
@@ -12,17 +13,20 @@ body {
     text-align: center;
 }
 
+
 /*container shapes*/
 
-.container-1, .container-2, .container-3 {
+.container-1,
+.container-2,
+.container-3 {
     border-radius: 2px;
     margin: 50px;
     width: 300px;
     height: 600px;
     flex-grow: 0;
     flex-shrink: 0;
-    
 }
+
 
 /*Container styling */
 
@@ -39,7 +43,7 @@ body {
 }
 
 .container-3 {
-    background-color:#fb6e52;
+    background-color: #fb6e52;
     color: white;
     filter: drop-shadow(30px 10px 10px #C9D3DD);
 }
@@ -92,7 +96,8 @@ hr {
 img {
     width: 100%;
     padding: 0px;
-    margin-top: -50px; /*Negative margin: overlaps h2 & image*/
+    margin-top: -50px;
+    /*Negative margin: overlaps h2 & image*/
     margin-bottom: -10px;
 }
 
@@ -111,7 +116,7 @@ button {
     border: none;
     font-size: 2rem;
     font-weight: 200;
-    color:white;
+    color: white;
 }
 
 .btn1 {
@@ -123,7 +128,7 @@ button {
 }
 
 .btn3 {
-    background-color: #cd402f ;
+    background-color: #cd402f;
 }
 
 a {
